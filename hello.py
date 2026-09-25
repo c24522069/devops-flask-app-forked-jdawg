@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def say_hello():
     return f'''
-        <p>Change!</p>
+        <p>Different string!</p>
         <a href="{url_for('about')}">About</a> |
         <a href="{url_for('contact')}">Contact</a>
     '''
