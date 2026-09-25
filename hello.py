@@ -15,6 +15,7 @@ def contact():
     return '''
         <p>Email me at: <a href="mailto:c24405302@mytudublin.ie">c24405302@mytudublin.ie</a></p>
         <a href="/">Home</a>
+        <a href="https://python.org">Check out python here</a>
     '''
 
 if __name__ == '__main__':
